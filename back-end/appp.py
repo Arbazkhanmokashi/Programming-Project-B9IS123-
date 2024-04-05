@@ -2,7 +2,6 @@ from flask import Flask, jsonify, request
 
 app = Flask(__name__)
 
-# Dummy data for products
 products = [ 
      {"id": 1, "name": "Product 1", "quantity": 10},
      {"id": 2, "name": "Product 2", "quantity": 20},
